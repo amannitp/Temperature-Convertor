@@ -1,0 +1,118 @@
+body{
+    padding: 10px 50px;
+    background-color: #475968;
+}
+#container{
+    background-color: red;
+    padding: 80px 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    border-radius: 10px;
+    
+}
+.tempContent{
+    display: flex;
+    flex-direction: row;
+    
+}
+label{
+    font-size: 30px;
+    margin-right: 160px;
+}
+input{
+    padding: 10px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+button{
+    padding: 10px;
+    margin-left: 40px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.samelebel{
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+span{
+    font-size: 20px;
+    margin-left: 20px;
+}
+#change{
+    margin-left:25px ;
+}
+.btnChange{
+    margin: 30px;
+    margin-left: 125px;
+}
+.inp{
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+.head{
+    color: white;
+    margin: 0px 30%;
+
+  
+}
+@media only screen and (max-width:950px){
+    h1{
+        font-size: 27px;
+    }
+    .btnChange{
+        margin-left: 40px;
+    }
+}
+@media only screen and (max-width:830px){
+    h1{
+        font-size: 25px;
+    }
+    .btnChange{
+        margin-left: 40px;
+    }
+}
+@media only screen and (max-width:510px){
+    h1{
+        font-size: 25px;
+    }
+    body{
+        padding:10px 8px
+    }
+    .btnChange{
+        margin-left: 40px;
+    }
+}
+@media only screen and (max-width:410px){
+    body{
+        padding: 0px 5px;
+    }
+    #container{
+        padding: 25px 6px;
+    }
+}
+@media only screen and (max-width:390px){
+    /* label {
+        font-size: 25px;
+        margin-right: 230px;
+    }
+    input{
+        margin-right: 200px;
+    } */
+    .tempcontent{
+        display: flex;
+        flex-direction: column;
+    }
+    span {
+        font-size: 20px;
+        margin-left: -30px;
+        margin-top: -10px;
+    }
+    button{
+        margin:10px 0px
+    }
+    .btnChange{
+        margin-left: 10px;
+    }
+}
